@@ -1,11 +1,13 @@
-package com.practice.spring.logic;
+package com.practice.logic;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class BubbleSort <T extends Comparable<T>> {
+public class BubbleSort <T extends Comparable<T>> implements Sort<T> {
 
+    @Override
     public List<T> sort(List<T> list) {
+
         List<T> result = new ArrayList<>(list);
 
         for(int i = result.size() - 1; i > 0; i--) {

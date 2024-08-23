@@ -1,19 +1,14 @@
-package com.practice.spring;
+package com.practice;
 
 
-import com.practice.spring.config.Config;
-import com.practice.spring.logic.BubbleSort;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import com.practice.logic.JavaSort;
+import com.practice.logic.Sort;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
-
-        Sort<String> sort = new BubbleSort<>();
-
+        Sort<String> sort = new JavaSort<>();
 
         System.out.println("[result] : " + sort.sort(Arrays.asList(args)));
     }
