@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.spring;
 
 import org.junit.jupiter.api.Test;
 

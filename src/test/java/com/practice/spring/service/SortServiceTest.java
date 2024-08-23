@@ -1,6 +1,6 @@
-package com.practice.service;
+package com.practice.spring.service;
 
-import com.practice.logic.BubbleSort;
+import com.practice.spring.logic.BubbleSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

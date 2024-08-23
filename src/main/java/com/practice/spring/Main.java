@@ -1,8 +1,8 @@
-package com.practice;
+package com.practice.spring;
 
 
-import com.practice.logic.JavaSort;
-import com.practice.logic.Sort;
+import com.practice.spring.logic.JavaSort;
+import com.practice.spring.logic.Sort;
 
 import java.util.Arrays;
 

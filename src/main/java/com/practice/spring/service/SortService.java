@@ -1,6 +1,6 @@
-package com.practice.service;
+package com.practice.spring.service;
 
-import com.practice.logic.Sort;
+import com.practice.spring.logic.Sort;
 
 import java.util.List;
 
